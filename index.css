@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-image:url("images/images\ \(1\).jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: fit-content;
+}
+img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.navbar{
+    height: 60px;
+    width: 80%;
+    background-color: rgb(31, 28, 28);
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 60px;
+    display: flex;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.heading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: rgb(241, 232, 232);
+   
+}
+
+.input{
+    background-color: rgb(31, 28, 28);  
+    text-align: center;
+    height: 720px;
+}
+.p1{
+    color: rgb(248, 127, 27);
+    padding-top: 50px ;
+    left: 0px;
+}
+
+.heading2{
+    color: rgb(238, 226, 226);
+    margin-top: 10px;
+    
+}
+.about{
+    color: rgb(238, 224, 224);
+    margin-top: 10px;
+    left: 0px;
+  
+}
