@@ -44,7 +44,7 @@ img{
 .input{
     background-color: rgb(31, 28, 28);  
     text-align: center;
-    height: 720px;
+    
 }
 .p1{
     color: rgb(248, 127, 27);
@@ -62,4 +62,89 @@ img{
     margin-top: 10px;
     left: 0px;
   
+}
+.bookings{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.bookings div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    
+    
+}
+.bookings div input{
+    height: 40px;
+    background-color: rgb(31, 28, 28);
+    color: rgb(238, 224, 224);
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    gap: 10px;
+    margin-top: 10px;
+}
+.message button{
+    background-color: rgb(248, 127, 27);
+    height: 50px;
+    color: rgb(238, 224, 224);
+    font-size: 16px;
+}
+.message textarea{
+    height: 80px;
+    background-color: rgb(31, 28, 28);
+    color: rgb(238, 224, 224);
+}
+.open-hours{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    gap: 20px;
+    height: 300px;
+}
+.open-hours img{
+    width: 40%;
+}
+.open-hours div{
+    color: rgb(238, 224, 224);
+    width: 30%;
+}
+.open-hours div p label{
+    color: rgb(248, 127, 27);
+    margin-left: 40px;
+}
+.open-hours div button{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(248, 127, 27);
+}
+.branding{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 350px;
+    color: rgb(238, 224, 224);
+    gap: 250px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 100px;
+    gap: 70px;
+    color: rgb(238, 224, 224);
+}
+.details iframe{
+    width: 300px;
+    height: 200px;
 }
